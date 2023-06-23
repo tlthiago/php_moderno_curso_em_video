@@ -13,11 +13,13 @@
     <main>
         <?php 
             $numero = $_GET["numero"];
+            $parteInteira = floor($numero);
+            $parteFracionaria = $numero - $parteInteira;
 
             echo "<p>Analisando o número <strong>$numero</strong> informado pelo usuário:";
 
-            echo "<li>A parte inteira do número é " . $numero;
-            echo "<li>A parte fracionário do número é " . $numero;
+            echo "<li>A parte inteira do número é <strong>$parteInteira</strong>";
+            echo "<li>A parte fracionário do número é <strong>$parteFracionaria</strong>";
         ?>
 
         <p><a href="javascript:history.go(-1)"><- Voltar</a></p>

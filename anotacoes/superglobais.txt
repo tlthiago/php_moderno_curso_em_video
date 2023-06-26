@@ -1,0 +1,17 @@
+$_GET = Gera um array associativo com todas variáveis que foram passadas por parâmetros através de uma URL;
+
+$_POST = Pega dados de formulários que foram enviados utilizando o método POST;
+
+$_REQUEST = Junta as funcionalidades do GET e do POST, as 03 geram vetores associativos;
+
+$_COOKIE = Tem acesso aos cookies da aplicação PHP;
+
+$_FILES = Se fizermos um upload de um arquivo essa superglobal pega os dados desse arquivo;
+
+$_SESSION = Permite que variáveis de sessão (variáveis que não são perdidas entre as naevgações de páginas) possam ser utilizadas;
+
+$_ENV = (Environment = Ambiente) Variáveis de ambiente do servidor;
+
+$_SERVER = ;
+
+$GLOBALS = Superglobal mais completa, mostra os dados de todas as outras superglobais.

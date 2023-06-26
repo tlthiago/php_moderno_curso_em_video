@@ -7,16 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Conversor de Moedas v1.0</h1>
-    </header>
-    <section>
-        <form action="calc.php" method="get">
+    <main>
+        <h1>Conversor de Moedas v2.0</h1>
+        <form action="conversao.php" method="get">
             <label for="numero">Quantos R$ você tem na carteira?</label>
-            <input type="text" name="numero" id="idNumero">
+            <input type="number" name="numero" id="idNumero" step="0.01">
 
             <input type="submit" value="Converter">
         </form>
-    </section>
+    </main>
 </body>
 </html>

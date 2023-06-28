@@ -25,7 +25,6 @@
         <h2>Saque de R$<?=$valor?> realizado</h2>
         <?php 
             $notas100 = floor($valor / 100);
-            $resto = $valor % 100;
             $notas50 = 0;
             $notas10 = 0;
             $notas5 = 0;
